@@ -28,7 +28,7 @@ resource "aws_codepipeline" "codepipeline" {
 
       configuration = {
         ConnectionArn    = aws_codestarconnections_connection.github.arn
-        FullRepositoryId = " Laboratorio-Aws/Lambda"
+        FullRepositoryId = "Laboratorio-Aws/Lambda"
         BranchName       = "main"
       }
     }
